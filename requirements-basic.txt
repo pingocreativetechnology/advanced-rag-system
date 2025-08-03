@@ -1,0 +1,33 @@
+# Basic RAG Agent Requirements
+# Core dependencies for basic functionality
+
+# LLM and RAG Framework
+langchain==0.3.26
+langchain-community==0.3.26
+langchain-core==0.3.72
+langchain-ollama==0.3.6
+
+# PDF and Document Processing
+PyPDF2==3.0.1
+pypdf==4.3.1
+
+# Vector Database (Optional but recommended)
+chromadb==0.6.3
+sentence-transformers==4.1.0
+
+# Web Framework for Advanced Interface
+flask==3.1.1
+werkzeug==3.0.7
+
+# Environment and Configuration
+python-dotenv==1.1.1
+
+# Basic Dependencies
+requests==2.32.4
+numpy>=1.26.0
+pydantic>=2.11.0
+
+# Audio/Voice Support (Optional)
+# Uncomment if using voice features
+# pydub==0.25.1
+# twilio==9.3.7
